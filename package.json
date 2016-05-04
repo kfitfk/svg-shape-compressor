@@ -1,0 +1,21 @@
+{
+  "name": "svg-shape-compressor",
+  "version": "1.0.0",
+  "description": "Reduce SVG DOM nodes count by merging sibling shape elements of the same color.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SVG"
+  ],
+  "author": "Ye Hao <yehao127@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "svg-boundings": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
